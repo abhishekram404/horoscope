@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400&family=Oswald:wght@400&family=Poppins:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.App {
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+.body {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 22% 78%;
+      grid-template-columns: 22% 78%;
+  background-color: #e0e5ec;
+}
+/*# sourceMappingURL=App.css.map */

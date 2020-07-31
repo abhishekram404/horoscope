@@ -1,0 +1,107 @@
+.body-cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-left: 0.2px solid rgba(0, 0, 0, 0.3);
+  margin: 0px 10px 10px 0px;
+  padding: 10px;
+  background-color: #e0e5ec;
+}
+
+.body-cont .title {
+  padding: 5px;
+}
+
+.body-cont .title h2 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 2rem;
+  color: #a3b1c6;
+  text-shadow: -3px -3px 5px rgba(255, 255, 255, 0.74), 5px 5px 5px #a3b1c6;
+}
+
+.body-cont .result-cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.body-cont .result-cont .card {
+  margin: 20px 15px;
+  border-radius: 10px;
+  max-width: 350px;
+  min-width: 700px;
+  background-color: #e0e5ec;
+  -webkit-box-shadow: -5px -5px 5px rgba(255, 255, 255, 0.5), 5px 5px 5px #a3b1c6;
+          box-shadow: -5px -5px 5px rgba(255, 255, 255, 0.5), 5px 5px 5px #a3b1c6;
+  max-height: 480px;
+}
+
+.body-cont .result-cont .card .wrapper {
+  padding: 35px 55px;
+}
+
+.body-cont .result-cont .card .wrapper .result-symbol {
+  float: right;
+  width: 120px;
+}
+
+.body-cont .result-cont .card .wrapper p {
+  padding: 10px 0px;
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: light;
+  color: #7a8697;
+  text-shadow: -1px -1px 5px #fff, 1px 1px 5px #a3b1c6;
+}
+
+.body-cont .result-cont .card .wrapper p i {
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  display: inline-block;
+  margin: 0px 10px;
+  border-radius: 50%;
+}
+
+.body-cont .result-cont .card .wrapper p .small-img {
+  max-width: 13px;
+  margin: 0px 10px;
+}
+
+.body-cont .result-cont .card .wrapper h3 {
+  color: #757474;
+  font-size: 1.2rem;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.body-cont .result-cont .card .wrapper h2 {
+  font-size: 1.5rem;
+  color: gray;
+  padding: 5px 0px;
+  font-family: "Montserrat";
+}
+
+.body-cont .result-cont .card .wrapper blockquote {
+  font-size: 1.3rem;
+  width: 500px;
+  font-family: "Poppins", sans-serif;
+  color: #7e7e7e;
+}
+/*# sourceMappingURL=Body.css.map */

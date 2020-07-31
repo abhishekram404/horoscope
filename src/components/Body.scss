@@ -1,0 +1,91 @@
+.body-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-left: 0.2px solid rgba($color: #000000, $alpha: 0.3);
+  margin: 0px 10px 10px 0px;
+  padding: 10px;
+  background-color: #e0e5ec;
+  .title {
+    padding: 5px;
+    h2 {
+      text-align: center;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 300;
+      font-size: 2rem;
+      color: #a3b1c6;
+      text-shadow: -3px -3px 5px rgba(255, 255, 255, 0.74), 5px 5px 5px #a3b1c6;
+    }
+  }
+  .result-cont {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    .card {
+      margin: 20px 15px;
+      border-radius: 10px;
+      max-width: 350px;
+      min-width: 700px;
+      background-color: #e0e5ec;
+      box-shadow: -5px -5px 5px rgba(255, 255, 255, 0.5), 5px 5px 5px #a3b1c6;
+
+      // border: 1px solid rgba($color: #000000, $alpha: 0.3);
+      // clear: both;
+      max-height: 480px;
+      .wrapper {
+        padding: 35px 55px;
+
+        .result-symbol {
+          float: right;
+          width: 120px;
+          // border: 2px solid black;
+          // padding: 15px 5px;
+          // border-radius: 50%;
+          // margin: 0px 30px;
+        }
+        p {
+          padding: 10px 0px;
+          font-size: 1.2rem;
+          font-family: "Montserrat", sans-serif;
+          font-weight: light;
+          color: #7a8697;
+          text-shadow: -1px -1px 5px #fff, 1px 1px 5px #a3b1c6;
+          i {
+            width: 15px;
+            height: 15px;
+            background-color: red;
+            display: inline-block;
+            margin: 0px 10px;
+            border-radius: 50%;
+          }
+          .small-img {
+            max-width: 13px;
+            margin: 0px 10px;
+          }
+        }
+
+        h3 {
+          color: rgb(117, 116, 116);
+          font-size: 1.2rem;
+          font-weight: lighter;
+          letter-spacing: 1px;
+          font-family: "Franklin Gothic Medium", "Arial Narrow", Arial,
+            sans-serif;
+        }
+        h2 {
+          font-size: 1.5rem;
+          color: rgb(128, 128, 128);
+          padding: 5px 0px;
+          font-family: "Montserrat";
+        }
+        blockquote {
+          font-size: 1.3rem;
+          width: 500px;
+          font-family: "Poppins", sans-serif;
+          // color: #a3b1c6;
+          color: rgb(126, 126, 126);
+        }
+      }
+    }
+  }
+}
